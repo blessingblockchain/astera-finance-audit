@@ -101,7 +101,7 @@ function _withdraw(uint256 _shares, address _receiver, address _owner)
 
 - Denial-of-Service (DoS): With a strict `slippage limit (0.01%)`, even `small losses (e.g., 5e18 on 100e18 pull)` exceed the `allowed threshold (e.g., 0.05e18)`, reverting withdrawals. Users cannot withdraw funds, effectively locking them in the vault. 
 
-NOW THIS DEPEND ON THESE SCENARIOS:-
+## NOW THIS DEPEND ON THESE SCENARIOS:-
 
 
 1. When Withdrawals Fail (e.g., Due to Strict Slippage, as in my PoC): Withdrawal reverts after strategy pull, potentially leaving `totalIdle` inflated when extras are mixed `(e.g., totalIdle = 495e18)`, but no shares are burned or tokens transferred.
