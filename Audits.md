@@ -5,11 +5,11 @@ My Finding Summay
 |ID|Title|Severity|
 |:-:|:---|:------:|
 |[H-01](#h-01-a-malicious-user-can-send-tokens-directly-to-the-`Reapervaultv2cooldownsol`-to-DOS-withdrawals-for-all-users-and-force-strategies-to-incur-losses-by-making-unnecessary-pulls-and-underestimating-liquidity)|A malicious user can send tokens directly to `Reapervaultv2cooldown.sol` to DOS withdrawals for all users and force strategies to incur losses by making unnecessary pulls and underestimating liquidity.|HIGH|
-||
+||||
 |[M-01](#m-01-an-attacker-can-DOS-withdrawals-and-force-losses-on-other-users-by-frontrunning-with-large-withrawals-in-`Reapervaultv2cooldown.sol`)|An attacker can DOS withdrawals and force losses on othher users by frontrunning with large withrawals in `Reapervaultv2cooldown.sol`.|MEDIUM|
 
 
-## [H-01]A malicious user can send tokens directly to the `Reapervaultv2cooldown.sol` to DOS withdrawals for all users and force strategies to incur losses by making unnecessary pulls and underestimating liquiditys. 
+## [H-01]A malicious user can send tokens directly to the `Reapervaultv2cooldown.sol` to DOS withdrawals for all users and force strategies to incur losses by making unnecessary pulls and underestimating liquidity. 
 
 ### Description
 
