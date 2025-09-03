@@ -1,5 +1,5 @@
 # Astera-Finance
-Astera Finance || An ERC721-based withdraw cooldown mechanism || 28 August 2025 to 1 Sep 2025 
+Astera Finance || ERC721-based withdraw cooldown mechanism || 28 August 2025 to 1 Sep 2025 
 
 My Finding Summay
 |ID|Title|Severity|
